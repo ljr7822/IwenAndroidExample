@@ -3,7 +3,7 @@
 ## 自定义TabLayout
 
 ## 使用方法
-**1、先引入jitpack：**在项目的gradle下
+#### 1、先引入jitpack：在项目的gradle下
 ```
 allprojects {
 		repositories {
@@ -13,7 +13,7 @@ allprojects {
 	}
 ```
 
-**2、添加依赖：**在app的grale下
+#### 2、添加依赖：在app的grale下
  - Tag:1.0.0
 ```
 dependencies {
@@ -21,7 +21,7 @@ dependencies {
 	}
 ```
 
-**3、在布局中使用：**
+#### 3、在布局中使用：
 ```
 <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@ dependencies {
     </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-**4、对应的Activity中：**
+#### 4、对应的Activity中：
 ```
 public class TabLayoutActivity extends BaseBDActivity<ActivityTabLayoutBinding, TabLayoutVM> {
 
